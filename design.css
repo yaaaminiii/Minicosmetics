@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+header {
+  background:linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+  padding:25px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.logo {
+  font-size:48px;
+  font-family:'lobster',cursive;
+  color: #d63384; 
+}
+nav a {
+  margin-left: 16px;
+  text-decoration:none;
+  color:#d63384;
+  font-size:25px;
+}
+.first {
+     height: 100vh; /* full screen */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background:linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);  
+      flex-direction: column;
+}
+.first h1{
+    font-size:60px;
+    font-family: 'Great Vibes', cursive;
+}
+.first p{
+  font-size:30px;
+  font-family:'Great Vibes', cursive;
+}
+.about, .contact {
+   height: 50vh;
+   font-size:30px;
+  background:linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1); 
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  display: flex;
+}
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+}
+form button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
